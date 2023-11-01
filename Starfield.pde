@@ -27,8 +27,8 @@ class Particle {
     myAngle = (Math.random() * Math.PI) * 2;
     mySpeed = 900000;
     myColor = color(#a6a8ff);
-    myWidth = 5;
-    myHeight = 5;
+    myWidth = 20;
+    myHeight = 20;
   }
   void show() {
     noStroke();
@@ -73,7 +73,7 @@ class dexter extends Particle {
     myAngle = (Math.random() * Math.PI) * 2;
     mySpeed = Math.random() * 5 + 1;
     myColor = color(100);
-    myWidth = 15;
-    myHeight = 15;
+    myWidth = 30;
+    myHeight = 30;
   }
 }

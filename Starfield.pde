@@ -1,7 +1,7 @@
 Particle[] willy;
 void setup() {
   size(500, 500);
-  background(0);
+  background(255);
   willy = new Particle[50];
   for (int i = 0; i < 10; i++) {
     willy[i] = new dexter();
@@ -11,7 +11,7 @@ void setup() {
   }
 }
 void draw() {
-  background(0);
+  background(255);
   for (int i = 0; i < willy.length; i++) {
     willy[i].move();
     willy[i].reset();
@@ -72,7 +72,7 @@ class dexter extends Particle {
     myX = myY = 250;
     myAngle = (Math.random() * Math.PI) * 2;
     mySpeed = Math.random() * 5 + 1;
-    myColor = color(100);
+    myColor = color(0);
     myWidth = 30;
     myHeight = 30;
   }
